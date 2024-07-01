@@ -1,0 +1,52 @@
+/* createItemForm.css */
+.item-form {
+    padding: 20px;
+    max-width: 400px; /* Narrower form width */
+    margin: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+  }
+  
+  .item-form h2 {
+    margin-top: 0;
+    text-align: center;
+  }
+  
+  .item-form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .item-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .item-form select,
+  .item-form input[type="text"],
+  .item-form input[type="number"],
+  .item-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .item-form button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #ecd041;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .item-form button[type="submit"]:hover {
+    background-color: #edce1c;
+  }
+  

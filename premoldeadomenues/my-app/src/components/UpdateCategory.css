@@ -1,0 +1,51 @@
+/* updateCategoryForm.css */
+.category-form {
+    padding: 20px;
+    max-width: 400px; /* Narrower form width */
+    margin: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+  }
+  
+  .category-form h2 {
+    margin-top: 0;
+    text-align: center;
+  }
+  
+  .category-form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .category-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .category-form input[type="text"],
+  .category-form select,
+  .category-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .category-form button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .category-form button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
